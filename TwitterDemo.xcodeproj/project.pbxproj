@@ -23,7 +23,7 @@
 
 /* Begin PBXFileReference section */
 		AB026246E0DD897DA2C5863A /* Pods_TwitterDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitterDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF33BC331E62D24F002152D5 /* TwitterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF33BC331E62D24F002152D5 /* Twitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF33BC361E62D24F002152D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF33BC381E62D24F002152D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EF33BC3B1E62D24F002152D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 		EF33BC341E62D24F002152D5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF33BC331E62D24F002152D5 /* TwitterDemo.app */,
+				EF33BC331E62D24F002152D5 /* Twitter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,9 +133,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EF33BC321E62D24F002152D5 /* TwitterDemo */ = {
+		EF33BC321E62D24F002152D5 /* Twitter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF33BC451E62D24F002152D5 /* Build configuration list for PBXNativeTarget "TwitterDemo" */;
+			buildConfigurationList = EF33BC451E62D24F002152D5 /* Build configuration list for PBXNativeTarget "Twitter" */;
 			buildPhases = (
 				5F168166DD0D3D062B017D32 /* [CP] Check Pods Manifest.lock */,
 				EF33BC2F1E62D24F002152D5 /* Sources */,
@@ -148,9 +148,9 @@
 			);
 			dependencies = (
 			);
-			name = TwitterDemo;
+			name = Twitter;
 			productName = TwitterDemo;
-			productReference = EF33BC331E62D24F002152D5 /* TwitterDemo.app */;
+			productReference = EF33BC331E62D24F002152D5 /* Twitter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -182,7 +182,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EF33BC321E62D24F002152D5 /* TwitterDemo */,
+				EF33BC321E62D24F002152D5 /* Twitter */,
 			);
 		};
 /* End PBXProject section */
@@ -417,7 +417,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF33BC451E62D24F002152D5 /* Build configuration list for PBXNativeTarget "TwitterDemo" */ = {
+		EF33BC451E62D24F002152D5 /* Build configuration list for PBXNativeTarget "Twitter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF33BC461E62D24F002152D5 /* Debug */,

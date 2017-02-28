@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EF33BC321E62D24F002152D5"
-               BuildableName = "TwitterDemo.app"
-               BlueprintName = "TwitterDemo"
+               BuildableName = "Twitter.app"
+               BlueprintName = "Twitter"
                ReferencedContainer = "container:TwitterDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EF33BC321E62D24F002152D5"
-            BuildableName = "TwitterDemo.app"
-            BlueprintName = "TwitterDemo"
+            BuildableName = "Twitter.app"
+            BlueprintName = "Twitter"
             ReferencedContainer = "container:TwitterDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -56,8 +56,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EF33BC321E62D24F002152D5"
-            BuildableName = "TwitterDemo.app"
-            BlueprintName = "TwitterDemo"
+            BuildableName = "Twitter.app"
+            BlueprintName = "Twitter"
             ReferencedContainer = "container:TwitterDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -75,8 +75,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EF33BC321E62D24F002152D5"
-            BuildableName = "TwitterDemo.app"
-            BlueprintName = "TwitterDemo"
+            BuildableName = "Twitter.app"
+            BlueprintName = "Twitter"
             ReferencedContainer = "container:TwitterDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
