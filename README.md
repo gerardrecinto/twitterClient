@@ -4,7 +4,7 @@
 
 **Name of your app** is a basic twitter app to read and compose tweets the [Twitter API](https://apps.twitter.com/).
 
-Time spent: **14** hours spent in total
+Time spent: **16** hours spent in total
 
 ## User Stories
 
@@ -27,7 +27,8 @@ The following **additional** features are implemented:
 - [x ] List anything else that you can get done to improve the app functionality!
 - [x ] Navigation Bar customization
 - [x ] App Icon emulates actual Twitter icon
-
+- [x ] Autolayout correct when rotated left or right
+- [x ] Launch Screen Icon Customized
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
@@ -38,7 +39,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://imgur.com/OT1GfdK.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://imgur.com/tLgxftg.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
