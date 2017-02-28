@@ -103,6 +103,7 @@ class TweetsViewController: UIViewController, UITableViewDelegate, UITableViewDa
             shadow.shadowOffset = CGSize(width: 2, height: 2)
             // shadow.shadowOffset = CGSizeMake(2, 2);
             shadow.shadowBlurRadius = 4;
+            navigationBar.backgroundColor = UIColor.cyan
             navigationBar.titleTextAttributes = [
                 NSFontAttributeName : UIFont.boldSystemFont(ofSize: 22),
                 NSForegroundColorAttributeName : UIColor(red: 0.0, green: 0.25, blue: 0.35, alpha: 0.8),
