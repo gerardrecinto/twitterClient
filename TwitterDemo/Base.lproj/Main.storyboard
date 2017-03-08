@@ -96,12 +96,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FOLLOWERS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OBy-n3-lfC">
-                                <rect key="frame" x="230" y="280" width="73" height="15"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FOLLOWING" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HTB-DS-vST">
                                 <rect key="frame" x="54" y="280" width="71" height="15"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -137,10 +131,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FOLLOWERS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OBy-n3-lfC">
+                                <rect key="frame" x="271" y="280" width="73" height="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="OBy-n3-lfC" firstAttribute="leading" secondItem="trf-Nf-k9E" secondAttribute="trailing" constant="8" symbolic="YES" id="0S6-sK-skB"/>
+                            <constraint firstItem="OBy-n3-lfC" firstAttribute="leading" secondItem="trf-Nf-k9E" secondAttribute="trailing" constant="49" id="0S6-sK-skB"/>
                             <constraint firstItem="HTB-DS-vST" firstAttribute="baseline" secondItem="OBy-n3-lfC" secondAttribute="baseline" id="3SJ-hI-dsL"/>
                             <constraint firstItem="7bJ-8r-g41" firstAttribute="centerY" secondItem="mWH-VX-TnX" secondAttribute="centerY" id="3Y2-7g-hJf"/>
                             <constraint firstItem="vli-a3-hg1" firstAttribute="leading" secondItem="9Um-6O-vBr" secondAttribute="leadingMargin" id="55Z-gj-4Ez"/>
@@ -206,9 +206,21 @@
                     </textView>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="YGF-AL-P8o">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="7f9-XF-u7S">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ze6-Rh-sM9">
+                                <rect key="frame" x="16" y="7" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Tweet" id="xEw-RD-buB"/>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="countDownButton" destination="7f9-XF-u7S" id="dUK-bA-yeI"/>
+                        <outlet property="textView" destination="QlO-kx-1ih" id="HqL-cz-R3I"/>
+                        <outlet property="tweetButton" destination="xEw-RD-buB" id="bXC-nO-nx5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LMr-Za-Htc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

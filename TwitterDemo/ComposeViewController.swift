@@ -10,9 +10,13 @@ import UIKit
 
 class ComposeViewController: UIViewController {
 
+  @IBOutlet weak var countDownButton: UIBarButtonItem!
+  @IBOutlet var textView: UITextView!
+  @IBOutlet weak var tweetButton: UIBarButtonItem!
+  var countDown = 140
     override func viewDidLoad() {
         super.viewDidLoad()
-
+      textView.text.
         // Do any additional setup after loading the view.
     }
 
