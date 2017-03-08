@@ -20,8 +20,8 @@ class Tweet: NSObject {
     var profileUrl: NSURL?
     var favorited: Bool
     var retweeted: Bool
-    
-    
+    var tweetId: Int
+  
     init(dictionary: NSDictionary){
         text = dictionary["text"] as? NSString
         retweetCount = (dictionary["retweet_count"] as? Int) ?? 0
@@ -39,7 +39,7 @@ class Tweet: NSObject {
         self.screenname = user?.screenname
         self.profileUrl = user?.profileUrl as NSURL?
         self.tagline = user?.tagline
-        
+        self.tweetId = dictionary["id"] as! Int
         self.favorited = dictionary["favorited"] as! Bool
         self.retweeted = dictionary["retweeted"] as! Bool
         

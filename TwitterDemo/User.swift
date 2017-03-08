@@ -14,6 +14,10 @@ class User: NSObject {
     var profileUrl: URL?
     var tagline: NSString?
     var dictionary: NSDictionary?
+    var coverPhotoUrl: URL?
+    var tweetsCount: Int = 0
+  var followerCount: Int = 0
+  var followingCount: Int = 0
     init(dictionary: NSDictionary){
         self.dictionary = dictionary
         name = dictionary["name"] as? NSString
@@ -21,10 +25,21 @@ class User: NSObject {
         let profileUrlString = dictionary["profile_image_url_https"] as? String
         if let profileUrlString = profileUrlString{
             profileUrl = URL(string: profileUrlString)
-        }
+        } else {
+          profileUrl = URL(string: "")
+      }
+      let coverPhotoUrlString = dictionary["profile_background_image_url_https"] as? String
+      if let coverPhotoUrlString = coverPhotoUrlString {
+        coverPhotoUrl = URL(string: coverPhotoUrlString)
+      } else {
+        coverPhotoUrl = URL(string: "")
+      }
+        tweetsCount = dictionary["statuses_count"] as! Int
         tagline = dictionary["description"] as? NSString
+        followerCount = dictionary["followers_count"] as! Int
+        followingCount = dictionary["friends_count"] as! Int
     }
-    
+
     static let userDidLogoutNotification = "UserDidLogout"
 
     static var _currentUser: User?
