@@ -8,18 +8,35 @@
 
 import UIKit
 
-class ComposeViewController: UIViewController {
+class ComposeViewController: UIViewController, UITextViewDelegate {
 
-  @IBOutlet weak var countDownButton: UIBarButtonItem!
+
+  @IBOutlet weak var countDownLabel: UILabel!
   @IBOutlet var textView: UITextView!
   @IBOutlet weak var tweetButton: UIBarButtonItem!
-  var countDown = 140
     override func viewDidLoad() {
         super.viewDidLoad()
-      textView.text.
+      
+      self.countDownLabel.text =
+        "140"
+      self.textView.delegate = self
+
         // Do any additional setup after loading the view.
     }
-
+  
+  func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
+    let newLen = textView.text.characters.count - range.length
+ 
+    if (newLen <= 140){
+      self.countDownLabel.text = "\(139 - newLen)"
+      self.countDownLabel.reloadInputViews()
+      return true
+    } else {
+      return false
+    }
+  }
+ 
+  
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

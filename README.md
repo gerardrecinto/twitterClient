@@ -85,7 +85,7 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 (I accomplished a lot of additional features)
 
-- [ ] When composing, you should have a countdown in the upper right for the tweet limit.
+- [x ] When composing, you should have a countdown in the upper right for the tweet limit.
 - [ ] After creating a new tweet, a user should be able to view it in the timeline immediately without refetching the timeline from the network.
 - [ ] Profile Page
 - [ ] Implement the paging view for the user description.
@@ -114,7 +114,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://imgur.com/fXCtAXq.gif' Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://imgur.com/EHZqzke.gif' Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
