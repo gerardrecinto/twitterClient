@@ -1,4 +1,6 @@
 # twitterClient
+![Image](http://imgur.com/EHZqzke.gif)
+
 
 # Project 4 - *Twitter Client*
 
