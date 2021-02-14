@@ -1,5 +1,5 @@
 # twitterClient
-![Image](https://imgur.com/a/K5bcZv1)
+![Image](http://imgur.com/a/K5bcZv1)
 
 
 # Project 4 - *Twitter Client*
